@@ -13,3 +13,17 @@ Verificar os contextos e definí-los como padrão:
 kubectl config get-contexts
 ```
 ![screenshot](imageFolder/kubectl_config_get-contexts.png)
+
+```sh
+kubectl get pods --context minikube
+```
+
+# Mãos a Obra
+
+```sh
+# Criando mongodb
+kubectl run mongodb --image=mongo --port=27017
+
+# verificando
+kubectl get pods
+```
